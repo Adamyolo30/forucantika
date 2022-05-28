@@ -1,0 +1,65 @@
+<html><meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script><link href="https://kamu.likeadream.repl.co/style.css" rel="stylesheet" type="text/css" /><script src="https://kamu.likeadream.repl.co/script.js"></script>
+<head>
+<!-- 
+This code was made by Rayya R
+Blog: https://sinkronin.com
+Instagram: rayyarrr
+TikTok: rayyarr_
+Telegram: @rayyarr
+-->
+</head>
+
+<body>
+<style>
+body{background-image:url("https://i.ibb.co/v3YmvG4/cacn-cantik.jpg"  );background-repeat: no-repeat;animation:none;background-size: 100% 100%;}
+</style>
+
+<div id='Content'>
+<div class="foto"><div class="image">
+<!-- Foto Atas --><img src="https://i.ibb.co/svL48dz/cute.jpg"  width="100px" height="100px"/></div><p id="textnama"></p></div>
+
+<div id='pergeseran'>
+<p><i>Geser yaa &#128073;</i></p>
+<p>Haiii Anak Kumbang &#129395;</p>
+<p>are you okey?</p>
+<p>lagi sedih yaa?</p>
+<p>jangan sedih terus dong</p>
+<p>kalo kamu sedih</p>
+<p>nanti lampu dirumah aku pada mati tau</p>
+<p>senyum dong kaya di background</p>
+<p>kalo kamu mau cerita</p>
+<p>cerita aja sini aku dengerin kok</p>
+<p>siapa tau aku bisa kasih solusi</p>
+<p>keep smile on your face :) </p>
+<p>btw sebentar lagi haid ya? dipake ya pks yg aku kasih kemaren </p>
+<p>senyummmmm :)<p/>
+&#128073; <a id="tm" onClick='pmau();'>[ Mau ]</a><a id="tm" onClick='pgakmau();'>[ Gak mau ]</a></p>
+</div>
+</div>
+
+<script>
+  //Audio Link MP3
+  function play() {var audio = new Audio('https://hei.likeadream.repl.co/kopet.mp3');audio.play();audio.loop=true;audio.addEventListener('ended', function() {this.currentTime = 0;this.play();}, false);}         
+  //Pembuka
+  var a=0,textnm;textnm = 
+  "Untukmu <3"
+
+const swals = Swal.mixin({allowOutsideClick: false,});
+
+async function pmau(){
+await swals.fire('ayoo cerita');
+await swals.fire('aku bisa jaga rahasia kok <3');
+await swals.fire('Kirim ini ke no WhatsApp aku, oke?');
+window.location = "https://api.whatsapp.com/send?phone=085921194354&text=Hai, Aku mau cerita" + "%0A%0A" + "simak ya dengerin><";}
+
+async function pgakmau(){
+await swals.fire('yaudah kalo kamu blm bisa cerita, jangan sedih lagi yaa cantik');}
+
+async function start() {await swals.fire('Halo ツ');setTimeout(mulai, 900);play();}
+start();
+</script>
+
+</body>
+</html>
